@@ -1,0 +1,42 @@
+.tw-dialog {
+    max-width: none !important;
+    margin: auto !important;
+}
+
+.tw-content {
+    background-color: transparent !important;
+    margin: auto !important;
+    margin-top: 10% !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+  overflow: hidden;
+
+}
+
+.tw-class {
+    display: inline-block !important;
+    overflow: auto;
+}
+
+.tw-close-btn {
+    background-color: #ffb4bc !important;
+    position: relative !important;
+    margin: auto;
+    margin-bottom: 10px;
+    /* left: 25% !important */
+}
+
+@media only screen and (max-width:991px){
+    .tw-content {
+        background-color: transparent !important;
+        margin: auto !important;
+        margin-top: 10% !important;
+        width: 90% !important;
+        height: 100% !important;
+        border: none !important;
+       
+    
+    }
+}
+@media screen and (min-width: 480px) {}

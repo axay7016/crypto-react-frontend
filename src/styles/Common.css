@@ -1,0 +1,669 @@
+.vertical-line {
+    border-left: 1px solid #ccc;
+}
+
+.randomDataOdd:nth-child(odd) {
+    background: #d5c9c92e;
+}
+
+.randomDataEven:nth-child(even) {
+    background: #d5c9c92e;
+}
+
+/* .priceHigh {
+    animation: priceHigh 2s infinite;
+    font-weight: bold;
+} */
+.priceHigh {
+    color: #08d862;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width:991px) {
+    .user-btn {
+        margin-top: 12px !important;
+    }
+
+    .top-area {
+        margin-top: 20px;
+    }
+
+    .header-action .select {
+        flex-wrap: wrap;
+    }
+}
+
+/* @keyframes priceHigh {
+
+    0%,
+    49% {
+        color: #08d862;
+        font-weight: bold;
+    }
+
+    50%,
+    100% {
+        color: none;
+        font-weight: bold;
+    }
+} */
+/* 
+.priceLow {
+    animation: priceLow 2s infinite;
+    font-weight: bold;
+} */
+
+.priceLow {
+    color: red;
+    font-weight: bold;
+}
+
+/* @keyframes priceLow {
+
+    0%,
+    49% {
+        color: red;
+        font-weight: bold;
+    }
+
+    50%,
+    100% {
+        color: none;
+        font-weight: bold;
+    }
+} */
+
+.betRandomAmount,
+.betAmount {
+    width: 70px;
+    margin: unset;
+    font-family: unset;
+    font-size: unset;
+    font-weight: unset;
+    color: unset;
+    line-height: unset;
+    color: #fff;
+}
+.country-flag .ReactFlagsSelect-module_selectBtn__19wW7 {border: 0px !important; padding: 0px 0px !important; padding-left: 10px !important;}
+.menu-flags{
+ 
+  
+    color: var(--bs-white);
+    font-family: var(--body-font);
+    height: 50px;
+  
+
+    }
+    div.ReactFlagsSelect-module_filterBox__3m8EU {
+        background: #432f9f !important;
+    }
+.country-flag .menu-flags {position: absolute !important;  margin-top: 42px;
+    height: 10px;
+    margin-left: 3px;} 
+    .country-flag  input{padding-left: 80px;}
+    
+    .ReactFlagsSelect-module_selectOption__3pcgW:hover, .ReactFlagsSelect-module_selectOption__3pcgW:focus {
+        outline: none;
+        background: #571ce0;
+    }
+    .ReactFlagsSelect-module_filterBox__3m8EU input{padding-left: 10px;}
+    
+ 
+    
+    .ReactFlagsSelect-module_flagsSelect__2pfa2.menu-flags ul {
+        background-color: #432f9f;
+        width: 200px;
+    }
+    
+span.nsm7Bb-HzV7m-LgbsSe-BPrWId{
+    color:black;
+}
+
+.betRandomAmount {
+    width: 85px;
+    color: #08d862;
+}
+
+i.far.fa-copy.url-copy {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.payout-zero {
+    color: unset;
+}
+
+.col-xl-4.col-lg-6.dashboard-bottom {
+    padding-top: 10px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 500%;
+}
+
+.header-section .header-action .ms-0 {
+    margin-left: 8px !important;
+}
+
+/* .input-area {
+    background: #432f9f !important;
+    border-radius: 10px !important;
+} */
+
+
+.above-circle {
+    background-color: #08d862;
+}
+
+.mid-circle {
+    background-color: #ff8f49;
+}
+
+.below-circle {
+    background-color: #dc3545;
+}
+
+
+.terms .overlay .banner-content {
+    padding: 70px 0 70px !important;
+}
+
+/* arrows */
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.arrow-up::after,
+.arrow-down::after,
+.arrow-right:after,
+.arrow-right:before,
+.arrow-down ::before,
+.arrow-up:before {
+    content: '';
+}
+
+.arrow-up::after,
+.arrow-down::after,
+.arrow-right:after {
+    border-color: transparent;
+    border-style: solid;
+    position: absolute;
+    border-width: 10px 10px;
+}
+
+.arrow-up::before,
+.arrow-down::before,
+.arrow-right:before {
+    border: none;
+    position: absolute;
+}
+
+.arrow-up:after {
+    left: 0;
+    top: -50%;
+    border-bottom-color: #08d862 !important;
+    /* left: 50%;
+    top: 0;
+    border-left-color: #ff8f49 !important; */
+}
+
+.arrow-up:before {
+    background-color: #08d862 !important;
+    height: 50%;
+    width: 30%;
+    top: 50%;
+    left: 35%;
+    /* background-color: #ff8f49 !important;
+    height: 30%;
+    width: 50%;
+    top: 35%;
+    left: 0; */
+}
+
+.arrow-right:after {
+    left: 50%;
+    top: 0;
+    border-left-color: #ff8f49 !important;
+}
+
+.arrow-right:before {
+    background-color: #ff8f49 !important;
+    height: 30%;
+    width: 50%;
+    top: 35%;
+    left: 0;
+}
+
+.arrow-down:before {
+    border: none;
+    background-color: red;
+    height: 50%;
+    width: 30%;
+    top: 0;
+    left: 35%;
+    content: '';
+    position: absolute;
+}
+
+.arrow-down:after {
+    left: 0;
+    top: 50%;
+    border-width: 10px 10px;
+    border-top-color: red !important;
+    content: '';
+    border-color: transparent;
+    border-style: solid;
+    position: absolute;
+}
+
+/* arrows end */
+@media only screen and (max-width:575px) {
+    .mobile-width {
+        font-size: 13px;
+    }
+}
+
+.btn-betting-modal {
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--bs-white);
+    border-radius: 10px;
+    background-color: #571ce0;
+    box-shadow: 4px 6.928px 24px 0px rgb(0 0 0 / 18%);
+}
+
+.table-static {
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #120f54;
+    box-shadow: 4px 6.928px 24px 0px #291b6b;
+    margin: 50px;
+    border: 1px solid #fff;
+}
+
+.table-static thead {
+    border: 1px solid #fff;
+}
+
+.my-bets-coin-select {
+    border-radius: 10px;
+
+    border-color: white;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #463b9f !important;
+
+
+}
+
+
+/* css for datetime picker of dashboard --> mybets and transaction */
+
+.dtPickerMyBets {
+    background: #432f9f;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.dtPickerMyBets input {
+    color: white;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.dtPickerMyBets input:focus {
+    border: 0;
+}
+
+
+
+.above-socket {
+    background-color: #60ef9e;
+}
+
+.mid-socket {
+    background-color: #ffb88b;
+}
+
+.game-screen{
+    cursor: pointer;
+}
+
+.below-socket {
+    background-color: #ff6565;
+}
+.amount-5 {display: flex;
+align-items: center; }
+.dashboard-table .text-success img {float: none !important;}
+.dashboard-content .tab-content .table-responsive .table tr th, .dashboard-content .tab-content .table-responsive .table tr td {vertical-align: baseline;}
+.amount-2 { vertical-align: middle !important;
+    align-items: center; grid-column-gap: 5px; min-width: 200px;}
+/* -------------------------------------------------------------- */
+.text-succes {color: #08d862 !important;}
+.bull-game {display: flex; align-items:center; margin-top: 10px;}
+.bull-game .arrow {margin-top: 0px;}
+.bull-game .mobile-width {line-height: 0px;}
+.ReactFlagsSelect-module_label__27pw9  {max-width: 100px;}
+.ReactFlagsSelect-module_selectBtn__19wW7:after {border-top: 5px solid #ffffff !important;}
+.ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {border-bottom: 5px solid #ffffff !important;}
+.cryptoGamesHeader-btn {
+    padding: 1px 10px;
+}
+.chart-icon {
+    background-color: #571ce0;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.single-item-games-balance {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    background: #322a71;
+    border-radius: 10px 10px 0 0;
+    padding: 30px 20px;
+}
+
+.bottom-area-games-balance {
+
+    background: #571ce0;
+    padding: 8px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.h5-games-balance {
+    margin: 30px 0 15px;
+}
+.amount-5 img {float: none;}
+
+.deposit-tab .nav-tabs {border-bottom: 0px; background-color: #322a71; margin-top: 15px; padding: 10px;} 
+.deposit-tab .nav-link {color: #fff;}
+.deposit-tab  .nav-tabs .nav-link {border-radius: 0px; border: 0px;}
+.deposit-tab .nav-tabs .nav-link.active {border: 0px; background: #463b9f; color: #fff;}
+.deposit-usd {margin-top: 10px;}
+.deposit-usd label {padding-bottom: 10px;}
+.despoti-bt {margin-top: 15px;}
+@media only screen and (max-width:1200px){
+  .table   .text-success  {min-width: 210px;}
+    .date-4 {min-width: 215px;}
+    .date-2 {min-width: 215px;}
+    .pay-id {min-width: 80px;}
+    .description-2 {
+        min-width: 365px;
+    }
+}
+@media only screen and (max-width:991px) {
+
+    .market-price-check input,
+    textarea {
+        border-radius: 0px !important;
+    }
+
+    .market-price-check input[type="checkbox"] {
+        background: #fff !important;
+        padding: 0px;
+    }
+    .tabel-mobile {width: auto !important;}
+    .dashboard-content .tab-content .table-responsive .table {width: 100%;}
+    .description-2 {min-width: 365px;}
+    .balnk-text {min-width: 200px;}
+}
+
+@media screen and (max-width: 767px) {
+    .coin-balance-card {
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+        display: none;
+    }
+
+    .duration-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .footer-section .newsletter {
+        padding: 9px 15px;
+
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+
+    #newsletter .section-text {
+        margin-top: 0px;
+    }
+
+
+    .user-currency {
+        margin-left: 15px;
+    }
+
+    .dash-win {
+        display: block !important;
+    }
+
+    .total-winning-2 {
+        width: 100% !important;
+    }
+
+    .dash-win .text-area {
+        margin-left: 15px !important;
+    }
+}
+
+.accordion-cryptocoin-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    filter: brightness(0) invert(1);
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-cryptocoin-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    background-color: #382590;
+    border-radius: 10px;
+    overflow-anchor: none;
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.accordion-cryptocoin-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+
+}
+
+@media only screen and (max-width:991px) {
+    .durection .single-item {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        padding-bottom: 0px !important;
+        grid-row-gap: 15px;
+    }
+
+    .durection .single-item .checkbox-single {
+        border-bottom: 0px !important;
+    }
+
+    .balance {
+        display: none;
+    }
+
+    #tradingview_aae5e-wrapper div {
+        width: 100% !important;
+    }
+}
+
+.active-page>a {
+    background: #571ce0 !important;
+}
+
+.one-minute-countdown {
+    animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground {
+    0% {
+        background-color: #08d862;
+    }
+
+    25% {
+        background-color: #FF0000;
+    }
+
+    50% {
+        background-color: #08d862;
+    }
+
+    75% {
+        background-color: #FF0000;
+    }
+
+    100% {
+        background-color: #08d862;
+    }
+}
+
+.market-price {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.user-currency {
+    width: auto;
+}
+
+.market-price-check {
+    display: flex;
+  align-items: center;
+  
+}
+
+.total-winning {
+    width: max-content;
+}
+@media only screen and (max-width:991px){
+    .navbar-collapse {left: 0;
+        right: 0;
+        position: absolute;
+        top: 100%;}
+  .bull-game .mobile-width {font-weight: 800;}
+
+    .bet-this-game .sidebar .single-sidebar .single-item .checkbox-single {padding-bottom: 0px; }
+    .durection {padding-bottom: 0px !important;}
+    .table  .text-success  {min-width: 210px;}
+}
+
+@media only screen and (max-width:990px) {
+    .soccer-bets .overlay .banner-content { padding: 0px !important;}
+}
+@media only screen and (max-width:575px){
+    .description-2 {min-width: 305px;}
+}
+
+@media only screen and (max-width:540px) {
+    .betpopmodal .modal .modal-dialog .modal-content .modal-body .bottom-area .btn-area button {display: block;margin: auto;}
+    .user-currency {position: absolute; right: 0%; margin-right: 30px;}
+    .market-price-check {margin-top: 20px;}
+  }
+@media only screen and (max-width: 475px){
+    .cryptoGamesHeader-btn {margin-right: 5px;}
+    .cryptoGamesHeader-btn  .game-current-price {font-size: 14px;}
+}
+
+
+
+@media only screen and (max-width:443px) {
+    .tra-tab {
+        flex-wrap: wrap;
+        grid-row-gap: 25px;
+    }
+
+    .tra-tab .single-input {
+        width: 60%;
+        margin-left: 0px !important;
+    }
+
+    .text-date {
+        font-size: 16px;
+    }
+   
+}
+@media only screen and (max-width:394px){
+    .bet-this-game .sidebar .single-sidebar .single-item {padding-bottom: 10px !important;}
+    .bet-this-game .sidebar .single-sidebar .single-item .checkbox-single {margin-bottom: 0px;}
+}
+
+
+
+.navbar{
+    /*   z-index should be above .close-navbar-toggler */
+      z-index:2;
+    }
+    .close-navbar-toggler{
+      position:absolute;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      z-index:1;
+      cursor:pointer;
+    }
+    .close-navbar-toggler.collapsed{
+      z-index:-1;
+    }

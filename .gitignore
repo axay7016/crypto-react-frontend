@@ -1,0 +1,14 @@
+
+# folders
+node_modules/
+deletedCode/
+
+# files
+temp.json
+z.js
+
+# .files
+.env
+.package-lock.json
+.deletedCode.js
+z.txt

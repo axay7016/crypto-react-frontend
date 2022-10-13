@@ -1,0 +1,28 @@
+select {
+    border-radius: 10px;
+    background-color: #282470 !important;
+    border-color: transparent;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.country-select {
+    background-color: #432f9f !important;
+    height: 50px;
+    border: 1px solid #8790ae;
+}
+
+
+.header-balance-select {
+    background-color: #1f2340;
+}
+
+.header-balance-select {
+    background: transparent !important;
+}
